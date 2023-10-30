@@ -7,5 +7,8 @@ export default {
 
     BACKGROUND_BUTTON: "rgba(255, 255, 255, 0.1)",
     BORDER_BUTTON: "rgba(255, 255, 255, 0.5)"
+  },
+  FONTS: {
+    INTER: "'Inter', sans-serif",
   }
 }
