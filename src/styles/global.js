@@ -12,6 +12,7 @@ export default createGlobalStyle`
   }
 
   body {
+    font-family: ${({ theme }) => theme.FONTS.INTER};
     background: ${({ theme }) => theme.COLORS.BACKGROUND_GRADIENT};
     height: 100vh;
   }
