@@ -9,6 +9,8 @@ export const Container = styled.button`
   align-items: center;
   gap: 4rem;
 
+  padding: 0.4rem 1.6rem;
+
   font-weight: 500;
   font-size: 1.6rem;
 
@@ -16,7 +18,7 @@ export const Container = styled.button`
 
   cursor: pointer;
 
-  transition: 0.5s;
+  transition: 0.3s ease-in;
 
   > img {
     height: 7rem;
@@ -27,6 +29,15 @@ export const Container = styled.button`
 
   &:hover {
     border: 1px solid ${({ theme }) => theme.COLORS.BACKGROUND_BUTTON};
+    font-weight: 700;
+
+    > img {
+      border: 1px solid ${({ theme }) => theme.COLORS.BORDER_BUTTON};
+    } 
   }
   
+`;
+
+export const Description = styled.section`
+  display: none;
 `;

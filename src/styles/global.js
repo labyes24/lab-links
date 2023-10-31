@@ -12,12 +12,12 @@ export default createGlobalStyle`
   }
 
   body {
-    font-family: ${({ theme }) => theme.FONTS.INTER};
     background: ${({ theme }) => theme.COLORS.BACKGROUND_GRADIENT};
     height: 100vh;
   }
   
   body, button {
+    font-family: ${({ theme }) => theme.FONTS.INTER};
     font-size: 1.6rem;
     outline: none;
   }
