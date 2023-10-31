@@ -6,6 +6,24 @@ import { IntegrantCard } from "../../components/IntegrantCard";
 import logo from "../../assets/logo.svg";
 
 export function MainPage() {
+  const integrants = [
+    {
+      name: "test 1",
+      picture: logo
+    },
+    {
+      name: "test 2",
+      picture: logo
+    },
+    {
+      name: "test 3",
+      picture: logo
+    },
+    {
+      name: "test 4",
+      picture: logo
+    },
+  ];
   return (
     <Container>
       <Logo>
@@ -13,10 +31,9 @@ export function MainPage() {
         <img src={logo} alt="Logo do LabYes! Consiste em uma lâmpada amarela acesa e labyes! escrito em amerelo." />
       </Logo>
       <Integrants>
-        <IntegrantCard name="fulano de tal" picture={logo} href="https://linkedin.com" target="_blank" />
-        <IntegrantCard name="fulano de tal" picture={logo} href="https://linkedin.com" target="_blank" />
-        <IntegrantCard name="fulano de tal" picture={logo} href="https://linkedin.com" target="_blank" />
-        <IntegrantCard name="fulano de tal" picture={logo} href="https://linkedin.com" target="_blank" />
+        { integrants && integrants.map((integrant) => (
+          <IntegrantCard name={integrant.name} picture={integrant.picture} />
+        ))}
       </Integrants>
       <Social>
         <a href="https://github.com/lab-yes" target="_blank">

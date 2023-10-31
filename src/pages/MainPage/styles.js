@@ -28,6 +28,8 @@ export const Integrants = styled.main`
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
+
+  overflow-y: auto;
 `;
 
 export const Social = styled.footer`

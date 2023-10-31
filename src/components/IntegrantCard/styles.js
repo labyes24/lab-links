@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
-export const Container = styled.a`
+export const Container = styled.button`
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_BUTTON};
   border-radius: 1rem;
+  border: 1px solid ${({ theme }) => theme.COLORS.BORDER_BUTTON};
 
   display: flex;
   align-items: center;
@@ -25,7 +26,7 @@ export const Container = styled.a`
   }
 
   &:hover {
-    border: 1px solid ${({ theme }) => theme.COLORS.BORDER_BUTTON};
+    border: 1px solid ${({ theme }) => theme.COLORS.BACKGROUND_BUTTON};
   }
   
 `;
