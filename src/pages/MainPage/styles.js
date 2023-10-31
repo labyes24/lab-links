@@ -29,3 +29,20 @@ export const Integrants = styled.main`
   flex-direction: column;
   gap: 1.6rem;
 `;
+
+export const Social = styled.footer`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+
+  > a svg {
+    font-size: 2.4rem;
+    color: ${({ theme }) => theme.COLORS.WHITE};
+    transition: 0.3s;
+  }
+
+  > a svg:hover {
+    color: ${({ theme }) => theme.COLORS.BORDER_BUTTON};
+  }
+`;
