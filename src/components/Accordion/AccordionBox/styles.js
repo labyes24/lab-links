@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  height: 100vh;
+  height: 100dvh;
 
   display: flex;
   flex-direction: column;
@@ -18,9 +18,10 @@ export const Logo = styled.header`
   gap: 0.8rem;
 
   > p {
+    font-family: ${({ theme }) => theme.FONTS.INDER} ;
     font-size: 1.6rem;
     font-weight: 700;
-    color: ${({ theme }) => theme.COLORS.YELLOW};
+    color: ${({ theme }) => theme.COLORS.WHITE};
   }
 `;
 

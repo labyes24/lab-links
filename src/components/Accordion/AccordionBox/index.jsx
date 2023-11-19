@@ -75,8 +75,8 @@ export function AccordionBox() {
   return (
     <Container>
       <Logo>
-        <p>Team</p>
         <img src={logo} alt="Logo do LabYes! Consiste em uma lâmpada amarela acesa e LabYes! escrito em amerelo." />
+        <p>Lapidando o Dev Jr para o mercado real</p>
       </Logo>
       <Members>
         { members && members.map((integrant, index) => (

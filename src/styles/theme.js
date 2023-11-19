@@ -1,6 +1,6 @@
 export default {
   COLORS: {
-    BACKGROUND_GRADIENT: "linear-gradient(180deg, #AFA864 0%, #443E0C 100%)",
+    BACKGROUND_GRADIENT: "linear-gradient(270deg, #031E4C 0.05%, #1164A2 94.23%)",
 
     YELLOW: "#FEDF02",
     WHITE: "#FFFFFF",
@@ -10,5 +10,6 @@ export default {
   },
   FONTS: {
     INTER: "'Inter', sans-serif",
+    INDER: "'Inder', sans-serif"
   }
 }
