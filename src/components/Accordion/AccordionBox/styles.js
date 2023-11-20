@@ -15,7 +15,14 @@ export const Logo = styled.header`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.8rem;
+  gap: 2rem;
+
+  margin-top: 3rem;
+
+  > img {
+    width: 15rem;
+    height: 15rem;
+  }
 
   > p {
     font-family: ${({ theme }) => theme.FONTS.INDER} ;

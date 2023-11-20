@@ -39,6 +39,7 @@ export const ProfileHeader = styled.div`
   
       border-radius: 999px;
     }
+
   
     &:hover {
       font-weight: 700;
@@ -48,8 +49,18 @@ export const ProfileHeader = styled.div`
       } 
     }
   }
+
+  a {
+    font-size: 3rem;
+  }
+
+  &:hover {
+    a {
+      font-weight: bold;
+    }
+  }
 `;
 
 export const Description = styled.section`
-
+  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_DESCRIPTION};
 `;

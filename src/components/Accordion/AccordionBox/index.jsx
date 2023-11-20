@@ -12,6 +12,7 @@ const members = [
     picture: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU_3N837SZ4kX4PYCXMgLUwlFippWbDR_Mach-2IU&s",
     qualification: "muito bom dev React",
     participation: "Desenvolvedor front-end/designer/QA" ,
+    github: "https://github.com",
     linkedin: "https://linkedin.com"
   },
   {
@@ -19,6 +20,7 @@ const members = [
     picture: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU_3N837SZ4kX4PYCXMgLUwlFippWbDR_Mach-2IU&s",
     qualification: "muito bom dev React",
     participation: "Desenvolvedor front-end/designer/QA",
+    github: "https://github.com",
     linkedin: "https://linkedin.com"
   },
   {
@@ -26,6 +28,7 @@ const members = [
     picture: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU_3N837SZ4kX4PYCXMgLUwlFippWbDR_Mach-2IU&s",
     qualification: "muito bom dev React",
     participation: "Desenvolvedor front-end/designer/QA",
+    github: "https://github.com",
     linkedin: "https://linkedin.com"
   },
   {
@@ -33,6 +36,7 @@ const members = [
     picture: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU_3N837SZ4kX4PYCXMgLUwlFippWbDR_Mach-2IU&s",
     qualification: "muito bom dev React",
     participation: "Desenvolvedor front-end/designer/QA",
+    github: "https://github.com",
     linkedin: "https://linkedin.com" 
   },
   {
@@ -40,6 +44,7 @@ const members = [
     picture: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU_3N837SZ4kX4PYCXMgLUwlFippWbDR_Mach-2IU&s",
     qualification: "muito bom dev React",
     participation: "Desenvolvedor front-end/designer/QA",
+    github: "https://github.com",
     linkedin: "https://linkedin.com" 
   },
   {
@@ -47,6 +52,7 @@ const members = [
     picture: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU_3N837SZ4kX4PYCXMgLUwlFippWbDR_Mach-2IU&s",
     qualification: "muito bom dev React",
     participation: "Desenvolvedor front-end/designer/QA",
+    github: "https://github.com",
     linkedin: "https://linkedin.com" 
   },
   {
@@ -54,6 +60,7 @@ const members = [
     picture: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU_3N837SZ4kX4PYCXMgLUwlFippWbDR_Mach-2IU&s",
     qualification: "muito bom dev React",
     participation: "Desenvolvedor front-end/designer/QA",
+    github: "https://github.com",
     linkedin: "https://linkedin.com"
   },
   {
@@ -87,6 +94,7 @@ export function AccordionBox() {
             qualification={integrant.qualification} 
             participation={integrant.participation} 
             linkedin={integrant.linkedin} 
+            github={integrant.github}
             onClickItem={() => handleClick(index)}
             isActiveSection={index === activeIndex}
           />

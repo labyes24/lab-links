@@ -1,4 +1,4 @@
-import { AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { Container, ProfileHeader, Description } from "./styles";
 
 export function IntegrantCard({ 
@@ -7,6 +7,7 @@ export function IntegrantCard({
   qualification, 
   participation, 
   linkedin, 
+  github,
   onClickItem,
   isActiveSection, 
   ...rest 
@@ -25,6 +26,10 @@ export function IntegrantCard({
       {isActiveSection && 
         <Description>
           <h2>{name}</h2>
+          <div className="social">
+            <a href={linkedin} target="_blank"><AiFillLinkedin/></a>
+            <a href={github} target="_blank"><AiFillGithub/></a>
+          </div>
           <p>
             <b>Qualificações: </b> 
             {qualification}
@@ -33,11 +38,8 @@ export function IntegrantCard({
             <b>Participação: </b> 
             {participation}
           </p>
-          <p>
-            <b>Linkedin: </b> 
-            <a href={linkedin}><AiFillLinkedin/></a>
-          </p>
-        </Description>}
+        </Description>
+      }
     </Container>
   )
 }
