@@ -25,7 +25,6 @@ export function IntegrantCard({
       </ProfileHeader>
       {isActiveSection && 
         <Description>
-          <h2>{name}</h2>
           <div className="social">
             <a href={linkedin} target="_blank"><AiFillLinkedin/></a>
             <a href={github} target="_blank"><AiFillGithub/></a>

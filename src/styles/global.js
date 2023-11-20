@@ -17,7 +17,7 @@ export default createGlobalStyle`
   }
   
   body, button {
-    font-family: ${({ theme }) => theme.FONTS.INTER};
+    font-family: ${({ theme }) => theme.FONTS.INDER};
     font-size: 1.6rem;
     outline: none;
   }
