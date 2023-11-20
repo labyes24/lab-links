@@ -44,8 +44,6 @@ export const ProfileHeader = styled.div`
 
   
     &:hover {
-      font-weight: 700;
-  
       > img {
         border: 1px solid ${({ theme }) => theme.COLORS.BORDER_BUTTON};
       } 
@@ -72,6 +70,8 @@ export const Description = styled.section`
   flex-direction: column;
   gap: 1rem;
 
+  animation: appear 1.5s;
+
   .social {
     display: flex;
     justify-content: center;
@@ -89,5 +89,15 @@ export const Description = styled.section`
 
   p {
     text-align: justify;
+  }
+
+  @keyframes appear {
+    0% {
+      opacity: 0.1;
+    }
+
+    100% {
+      opacity: 1;
+    }
   }
 `;

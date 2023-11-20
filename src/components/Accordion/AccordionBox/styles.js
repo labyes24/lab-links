@@ -47,7 +47,7 @@ export const Social = styled.footer`
   gap: 3rem;
 
   > a svg {
-    font-size: 2.4rem;
+    font-size: 3rem;
     color: ${({ theme }) => theme.COLORS.WHITE};
     transition: 0.3s;
   }
