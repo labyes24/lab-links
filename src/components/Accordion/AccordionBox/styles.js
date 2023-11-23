@@ -27,8 +27,20 @@ export const Logo = styled.header`
   > p {
     font-family: ${({ theme }) => theme.FONTS.INDER} ;
     font-size: 1.6rem;
-    font-weight: 700;
+    font-weight: 400;
     color: ${({ theme }) => theme.COLORS.WHITE};
+  }
+
+  @media (min-width: 1024px) {
+    margin-top: 1rem; 
+    > img {
+      width: 16rem;
+      height: 16rem;
+    }
+    
+    > p {
+      font-size: 2.6rem;
+    }
   }
 `;
 
@@ -38,6 +50,12 @@ export const Members = styled.main`
   gap: 1.6rem;
 
   overflow-y: auto;
+
+  @media (min-width: 1024px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4rem;
+  }
 `;
 
 export const Social = styled.footer`

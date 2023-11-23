@@ -13,7 +13,7 @@ export function IntegrantCard({
   ...rest 
 }) {
   return (
-    <Container {...rest}>
+    <Container {...rest} isActiveSection={isActiveSection}>
       <ProfileHeader onClick={onClickItem}>
         <div className="member">
           <img src={picture} alt={`Foto do integrante ${name}`} />
