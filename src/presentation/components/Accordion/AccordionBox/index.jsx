@@ -1,0 +1,51 @@
+import { useState } from "react";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+
+import { Container, Logo, Members, Social } from "./styles";
+import { IntegrantCard } from "../IntegrantCard";
+
+import logo from "../../../assets/logo.svg";
+
+import { useVolunteers } from "../../../../data/VolunteersData";
+
+export function AccordionBox() {
+  const [activeIndex, setActiveIndex] = useState(null)
+
+  function handleClick(id) {
+    setActiveIndex(() => (activeIndex === id ? null : id))
+  }
+
+  const members = useVolunteers();
+
+  return (
+    <Container>
+      <Logo>
+        <img src={logo} alt="Logo do LabYes! Consiste em uma lâmpada amarela acesa e LabYes! escrito em amerelo." />
+        <p>Lapidando o Dev Jr para o mercado real</p>
+      </Logo>
+      <Members>
+        { members && members.map((integrant, index) => (
+          <IntegrantCard 
+            key={index} 
+            name={integrant.name} 
+            picture={integrant.picture} 
+            qualification={integrant.qualification} 
+            participation={integrant.participation} 
+            linkedin={integrant.linkedin} 
+            github={integrant.github}
+            onClickItem={() => handleClick(index)}
+            isActiveSection={index === activeIndex}
+          />
+        ))}
+      </Members>
+      <Social>
+        <a href="https://github.com/lab-yes" target="_blank">
+          <AiFillGithub />
+        </a>
+        <a href="https://www.linkedin.com/company/lab-yes/" target="_blank">
+          <AiFillLinkedin/>
+        </a>
+      </Social>
+    </Container>
+  )
+}

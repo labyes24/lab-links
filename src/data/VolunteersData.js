@@ -1,12 +1,15 @@
-import { useState } from "react";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+/**
+ * The volunteers info
+ * @typedef (Object) volunteer
+ * @property (string) name - volunteer's name.
+ * @property (string) picture - volunteer's picture.
+ * @property (string) qualification - volunteer's qualification.
+ * @property (string) participation - volunteer's participation in projects.
+ * @property (string) github - volunteer's github.
+ * @property (string) linkedin - volunteer's linkedin.
+ */
 
-import { Container, Logo, Members, Social } from "./styles";
-import { IntegrantCard } from "../IntegrantCard";
-
-import logo from "../../../assets/logo.svg";
-
-const members = [
+const volunteers = [
   {
     name: "test 1",
     picture: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU_3N837SZ4kX4PYCXMgLUwlFippWbDR_Mach-2IU&s",
@@ -47,44 +50,13 @@ const members = [
     github: "https://github.com",
     linkedin: "https://linkedin.com" 
   }
-];
+]
 
-export function AccordionBox() {
-  const [activeIndex, setActiveIndex] = useState(null)
+/**
+ * Retrieves the volunteers.
+ * @return {volunteers} returns the volunteers info.
+ */
 
-  function handleClick(id) {
-    setActiveIndex(() => (activeIndex === id ? null : id))
-  }
-
-  return (
-    <Container>
-      <Logo>
-        <img src={logo} alt="Logo do LabYes! Consiste em uma lâmpada amarela acesa e LabYes! escrito em amerelo." />
-        <p>Lapidando o Dev Jr para o mercado real</p>
-      </Logo>
-      <Members>
-        { members && members.map((integrant, index) => (
-          <IntegrantCard 
-            key={index} 
-            name={integrant.name} 
-            picture={integrant.picture} 
-            qualification={integrant.qualification} 
-            participation={integrant.participation} 
-            linkedin={integrant.linkedin} 
-            github={integrant.github}
-            onClickItem={() => handleClick(index)}
-            isActiveSection={index === activeIndex}
-          />
-        ))}
-      </Members>
-      <Social>
-        <a href="https://github.com/lab-yes" target="_blank">
-          <AiFillGithub />
-        </a>
-        <a href="https://www.linkedin.com/company/lab-yes/" target="_blank">
-          <AiFillLinkedin/>
-        </a>
-      </Social>
-    </Container>
-  )
+export function useVolunteers() {
+  return volunteers
 }
