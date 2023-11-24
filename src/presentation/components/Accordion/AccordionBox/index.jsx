@@ -20,7 +20,7 @@ export function AccordionBox() {
   return (
     <Container>
       <Logo>
-        <img src={logo} alt="Logo do LabYes! Consiste em uma lâmpada amarela acesa e LabYes! escrito em amerelo." />
+        <img src={logo} alt="Logo do LabYes! Consiste em duas letras: LY escrito em branco, seguido pela palavra team escrita menor ao lado." />
         <p>Lapidando o Dev Jr para o mercado real</p>
       </Logo>
       <Members>
