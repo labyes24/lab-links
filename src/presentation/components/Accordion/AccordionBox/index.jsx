@@ -26,7 +26,7 @@ export function AccordionBox() {
       <Members>
         { members && members.map((integrant, index) => (
           <IntegrantCard 
-            key={index} 
+            key={integrant.id} 
             name={integrant.name} 
             picture={integrant.picture} 
             qualification={integrant.qualification} 
