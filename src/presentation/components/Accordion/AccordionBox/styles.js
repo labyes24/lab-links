@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 100%;
@@ -9,7 +9,7 @@ export const Container = styled.div`
   gap: 4rem;
 
   padding: 2.4rem;
-`;
+`
 
 export const Logo = styled.header`
   display: flex;
@@ -25,24 +25,24 @@ export const Logo = styled.header`
   }
 
   > p {
-    font-family: ${({ theme }) => theme.FONTS.INDER} ;
+    font-family: ${({ theme }) => theme.FONTS.INDER};
     font-size: 1.6rem;
     font-weight: 400;
     color: ${({ theme }) => theme.COLORS.WHITE};
   }
 
   @media (min-width: 1024px) {
-    margin-top: 1rem; 
+    margin-top: 1rem;
     > img {
       width: 16rem;
       height: 16rem;
     }
-    
+
     > p {
       font-size: 2.6rem;
     }
   }
-`;
+`
 
 export const Members = styled.main`
   display: flex;
@@ -56,7 +56,7 @@ export const Members = styled.main`
     grid-template-columns: 1fr 1fr 1fr;
     gap: 4rem;
   }
-`;
+`
 
 export const Social = styled.footer`
   display: flex;
@@ -73,4 +73,4 @@ export const Social = styled.footer`
   > a svg:hover {
     color: ${({ theme }) => theme.COLORS.BORDER_BUTTON};
   }
-`;
+`

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.button`
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_BUTTON};
@@ -31,11 +31,10 @@ export const Container = styled.button`
   }
 
   @media (min-width: 1024px) {
-    height: ${({ isActiveSection }) => isActiveSection ? "auto" : "fit-content"} ;
-    
+    height: ${({ $isActiveSection }) =>
+      $isActiveSection ? 'auto' : 'fit-content'};
   }
-  
-`;
+`
 
 export const ProfileHeader = styled.div`
   display: flex;
@@ -50,18 +49,18 @@ export const ProfileHeader = styled.div`
     align-items: center;
     gap: 4rem;
     width: 100%;
-  
+
     > img {
       height: 6rem;
       width: 6rem;
-  
+
       border-radius: 999px;
     }
-  
+
     &:hover {
       > img {
         border: 1px solid ${({ theme }) => theme.COLORS.BORDER_BUTTON};
-      } 
+      }
     }
   }
 
@@ -92,7 +91,7 @@ export const ProfileHeader = styled.div`
       display: none;
     }
   }
-`;
+`
 
 export const Description = styled.section`
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_DESCRIPTION};
@@ -109,7 +108,7 @@ export const Description = styled.section`
   .social {
     display: flex;
     justify-content: center;
-    gap: .8rem;
+    gap: 0.8rem;
 
     a > svg {
       font-size: 2.7rem;
@@ -134,4 +133,4 @@ export const Description = styled.section`
       opacity: 1;
     }
   }
-`;
+`
