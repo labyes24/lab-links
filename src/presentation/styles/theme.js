@@ -8,6 +8,9 @@ export default {
     BACKGROUND_BUTTON: 'rgba(255, 255, 255, 0.1)',
     BORDER_BUTTON: 'rgba(255, 255, 255, 0.5)',
 
+    SCROLLBAR: 'rgba(217, 217, 217, 1)',
+    SCROLLBAR_BACKGROUND: 'rgba(217, 217, 217, 0.5)',
+
     BACKGROUND_DESCRIPTION: 'rgba(151, 164, 153, 0.5)',
   },
   FONTS: {

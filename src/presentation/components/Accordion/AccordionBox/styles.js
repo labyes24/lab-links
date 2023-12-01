@@ -49,7 +49,27 @@ export const Members = styled.main`
   flex-direction: column;
   gap: 1.6rem;
 
+  padding-right: 0.5rem;
+
   overflow-y: auto;
+
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: ${({ theme }) => theme.COLORS.SCROLLBAR_BACKGROUND};
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: ${({ theme }) => theme.COLORS.SCROLLBAR};
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: ${({ theme }) => theme.COLORS.WHITE};
+  }
+  &::-webkit-scrollbar-thumb:active {
+    background-color: ${({ theme }) => theme.COLORS.WHITE};
+  }
 
   @media (min-width: 1024px) {
     display: grid;
