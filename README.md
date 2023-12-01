@@ -16,33 +16,34 @@ Projeto em construção destinado para divulgação de devs participantes em cad
 
 ## 🎨 Cores
 
-| Tipo               | Hexadecimal                                                      |
-| ----------         | ---------------------------------------------------------------- |
-| white              | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
-| background_button  | rgba(255, 255, 255, 0.1)                                         |
-| border_button      | rgba(255, 255, 255, 0.5)                                         |
-| yellow             | ![#fedf02](https://via.placeholder.com/10/fedf02?text=+) #fedf02 |
-| background         | linear-gradient(180deg, #AFA864 0%, #443E0C 100%)                |
+| Tipo                   | Hexadecimal                                                      |
+| ---------------------- | ---------------------------------------------------------------- |
+| white                  | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
+| background_button      | rgba(255, 255, 255, 0.1)                                         |
+| border_button          | rgba(255, 255, 255, 0.5)                                         |
+| background_description | rgba(151, 164, 153, 0.5)                                         |
+| background             | linear-gradient(270deg, #031E4C 0.05%, #1164A2 94.23%)           |
 
 ## 📃 Fontes
 
-| Tipo              | Especificações  | Mobile |
-| ----------------- | --------------- | ------ |
-| Subtítulos        | `24px` `Inter` | `16px` |
-| Texto Primário    | `16px` `Inter` | `16px` |
+| Tipo                   | Especificações | Mobile |
+| ---------------------- | -------------- | ------ |
+| Descrição da página    | `26px` `Inder` | `16px` |
+| Subtítulos             | `16px` `Inter` | `16px` |
+| Descrição do volutário | `16px` `Inder` | `16px` |
 
 ## 🛠️ Stack utilizada
 
 **Front-end:**
 
-- HTML
+- ViteJs
+- ReactJs
 - Styled-Components
 - JavaScript
-- ReactJs
 
 ## Deploy
 
-- Veja o link do deploy [aqui](link-do-deploy).
+- Veja o link do deploy para QA [aqui](https://qa-lab-links.netlify.app/).
 
 ## 🗣️ Suporte
 
