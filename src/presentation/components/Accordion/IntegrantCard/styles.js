@@ -76,6 +76,7 @@ export const ProfileHeader = styled.div`
 
   @media (min-width: 1024px) {
     padding-block: 2rem;
+    position: relative;
 
     .member {
       flex-direction: column;
@@ -88,7 +89,9 @@ export const ProfileHeader = styled.div`
     }
 
     a {
-      display: none;
+      position: absolute;
+      bottom: 1rem;
+      right: 1rem;
     }
   }
 `
