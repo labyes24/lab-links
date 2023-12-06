@@ -46,7 +46,7 @@ const volunteers = [
     picture: cristianImg,
     qualification:
       'Disciplinado como um ninja, com altas dosagens de Hard e Soft Skills.',
-    participation: 'Dev FrontEnd',
+    participation: 'Dev Front End',
     github: 'https://github.com/cristian-sbardelotto',
     linkedin: 'https://www.linkedin.com/in/cristian-k-sbardelotto/',
   },
