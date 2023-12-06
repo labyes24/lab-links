@@ -12,10 +12,10 @@
 import graceImg from '../../public/volunteers/avatar_GK.jpg'
 import caioImg from '../../public/volunteers/caio-avatar2.jpg'
 import cristianImg from '../../public/volunteers/cristian_avatar.png'
-import evandroImg from '../../public/volunteers/evandro-avatar.jpg'
+import evandroImg from '../../public/volunteers/evandro-avatar-3.jpg'
 import henricoImg from '../../public/volunteers/henrico-avatar.png'
-import adrianoImg from '../../public/volunteers/tech-avatar.jpg'
-import thalytaImg from '../../public/volunteers/thalyta_avatar2.png'
+import adrianoImg from '../../public/volunteers/adriano-avatar-4.jpg'
+import thalytaImg from '../../public/volunteers/thalyta-avatar.png'
 import villaImg from '../../public/volunteers/villa-avatar.jpg'
 import ylderlanImg from '../../public/volunteers/ylderlan_avatar.png'
 
@@ -28,15 +28,6 @@ const volunteers = [
     participation: 'Tech Lead',
     github: 'https://github.com/silvasouzaadriano',
     linkedin: 'https://www.linkedin.com/in/adriano-souza-9b1a1b11/',
-  },
-  {
-    id: crypto.randomUUID(),
-    name: 'Grace Kelly',
-    picture: graceImg,
-    qualification: 'loading...',
-    participation: 'PM | PO | QA Manager | QA Tester',
-    github: 'https://github.com/gksouza',
-    linkedin: 'https://www.linkedin.com/in/gkos22/',
   },
   {
     id: crypto.randomUUID(),
@@ -64,6 +55,15 @@ const volunteers = [
     participation: 'Squad Lead e Dev Front End',
     github: 'https://github.com/dam450',
     linkedin: 'https://www.linkedin.com/in/evandro-damaso/',
+  },
+  {
+    id: crypto.randomUUID(),
+    name: 'Grace Kelly',
+    picture: graceImg,
+    qualification: 'loading...',
+    participation: 'PM | PO | QA Manager | QA Tester',
+    github: 'https://github.com/gksouza',
+    linkedin: 'https://www.linkedin.com/in/gkos22/',
   },
   {
     id: crypto.randomUUID(),

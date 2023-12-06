@@ -9,6 +9,19 @@ export const Container = styled.div`
   gap: 4rem;
 
   padding: 2.4rem;
+
+  animation: appear 1.5s;
+
+  @keyframes appear {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
 `
 
 export const Logo = styled.header`
