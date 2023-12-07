@@ -9,21 +9,11 @@
  * @property (string) linkedin - volunteer's linkedin.
  */
 
-import graceImg from '../../public/volunteers/avatar_GK.jpg'
-import caioImg from '../../public/volunteers/caio-avatar2.jpg'
-import cristianImg from '../../public/volunteers/cristian_avatar.png'
-import evandroImg from '../../public/volunteers/evandro-avatar-3.jpg'
-import henricoImg from '../../public/volunteers/henrico-avatar.png'
-import adrianoImg from '../../public/volunteers/adriano-avatar-4.jpg'
-import thalytaImg from '../../public/volunteers/thalyta-avatar.png'
-import villaImg from '../../public/volunteers/villa-avatar.jpg'
-import ylderlanImg from '../../public/volunteers/ylderlan_avatar.png'
-
 const volunteers = [
   {
     id: crypto.randomUUID(),
     name: 'Adriano Souza',
-    picture: adrianoImg,
+    picture: '/volunteers/adriano-avatar-4.jpg',
     qualification:
       'Organizado, ótimo em liderar desenvolvedores iniciantes devido a sua vasta experiência, encontra rapidamente soluções para problemas complexos, guiou cada passo do Lab Yes!',
     participation: 'Tech Lead',
@@ -33,7 +23,7 @@ const volunteers = [
   {
     id: crypto.randomUUID(),
     name: 'Caio Balduino',
-    picture: caioImg,
+    picture: '/volunteers/caio-avatar2.jpg',
     qualification:
       'Excelente comunicação, é pontual e trabalha muito bem em equipe.',
     participation: 'Web Designer e Dev Front End',
@@ -43,7 +33,7 @@ const volunteers = [
   {
     id: crypto.randomUUID(),
     name: 'Cristian Sbardelotto',
-    picture: cristianImg,
+    picture: '/volunteers/cristian_avatar.png',
     qualification:
       'Disciplinado como um ninja, com altas dosagens de Hard e Soft Skills.',
     participation: 'Dev Front End',
@@ -53,7 +43,7 @@ const volunteers = [
   {
     id: crypto.randomUUID(),
     name: 'Evandro Damaso',
-    picture: evandroImg,
+    picture: '/volunteers/evandro-avatar-3.jpg',
     qualification:
       'Econômico nas palavras, abundante em eficiência tech e pessoal.',
     participation: 'Squad Lead e Dev Front End',
@@ -63,7 +53,7 @@ const volunteers = [
   {
     id: crypto.randomUUID(),
     name: 'Grace Kelly',
-    picture: graceImg,
+    picture: '/volunteers/avatar_GK.jpg',
     qualification:
       'Ótima em detectar melhorias do ponto de vista do usuário, prevenir bugs e reconhecer características produtivas e positivas nas pessoas.',
     participation: 'PM | PO | QA Manager | QA Tester',
@@ -73,7 +63,7 @@ const volunteers = [
   {
     id: crypto.randomUUID(),
     name: 'Francisco Ylderlan',
-    picture: ylderlanImg,
+    picture: '/volunteers/ylderlan_avatar.png',
     qualification: 'Fortíssimos hard skills e organização de tarefas.',
     participation: 'Squad Lead e Dev Front End',
     github: 'https://github.com/FranciscoYlderlan',
@@ -82,7 +72,7 @@ const volunteers = [
   {
     id: crypto.randomUUID(),
     name: 'Henrico Angolera',
-    picture: henricoImg,
+    picture: '/volunteers/henrico-avatar.png',
     qualification:
       'Gentileza é sua marca pessoal, e sua assinatura digital é entrega de ótimos resultados.',
     participation: 'QA Tester e Dev Front End',
@@ -92,7 +82,7 @@ const volunteers = [
   {
     id: crypto.randomUUID(),
     name: 'Mateus Villa Nova',
-    picture: villaImg,
+    picture: '/volunteers/villa-avatar.jpg',
     qualification:
       'Ávido por codar e encontrar soluções rápidas para demandas tecnológicas.',
     participation: 'QA Tester e Dev Front End',
@@ -102,7 +92,7 @@ const volunteers = [
   {
     id: crypto.randomUUID(),
     name: 'Thalyta Rangel',
-    picture: thalytaImg,
+    picture: '/volunteers/thalyta-avatar.png',
     qualification:
       'Assertiva e observadora. Os bugs tremem diante de sua competência técnica.',
     participation: 'Dev Front End',
