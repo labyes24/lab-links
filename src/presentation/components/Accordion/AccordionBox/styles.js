@@ -10,16 +10,12 @@ export const Container = styled.div`
 
   padding: 2.4rem;
 
-  animation: appear 1.5s;
+  animation: appear 2s;
 
   @keyframes appear {
-    0% {
+    from {
       opacity: 0;
-      transform: translateY(30px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateX(0);
+      transform: translateY(-10vh);
     }
   }
 `

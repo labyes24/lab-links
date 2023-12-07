@@ -14,20 +14,8 @@ export const Container = styled.button`
 
   transition: 0.3s ease-in;
 
-  animation: appear 1.5s;
-
   &:hover {
     border: 1px solid ${({ theme }) => theme.COLORS.BACKGROUND_BUTTON};
-  }
-
-  @keyframes appear {
-    0% {
-      opacity: 0.1;
-    }
-
-    100% {
-      opacity: 1;
-    }
   }
 
   @media (min-width: 1024px) {
@@ -106,7 +94,7 @@ export const Description = styled.section`
   flex-direction: column;
   gap: 1rem;
 
-  animation: appear 1.5s;
+  animation: appearMemberDetails 2s;
 
   .social {
     display: flex;
@@ -127,12 +115,24 @@ export const Description = styled.section`
     text-align: justify;
   }
 
-  @keyframes appear {
+  overflow: hidden; /* Adiciona overflow: hidden para esconder o conteúdo que ultrapassa o max-height */
+  max-height: 0;
+  opacity: 0;
+
+  &.active {
+    animation: appearMemberDetails 3s;
+    max-height: 50rem;
+    opacity: 1;
+  }
+
+  @keyframes appearMemberDetails {
     0% {
-      opacity: 0.1;
+      max-height: 0;
+      opacity: 0;
     }
 
     100% {
+      max-height: 50rem;
       opacity: 1;
     }
   }

@@ -22,7 +22,7 @@ export function IntegrantCard({
         <a>{isActiveSection ? '-' : '+'}</a>
       </ProfileHeader>
       {isActiveSection && (
-        <Description>
+        <Description className={isActiveSection ? 'active' : ''}>
           <div className="social">
             <a href={linkedin} target="_blank" rel="noreferrer">
               <AiFillLinkedin />
