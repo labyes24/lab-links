@@ -52,6 +52,15 @@ const volunteers = [
   },
   {
     id: crypto.randomUUID(),
+    name: 'Francisco Ylderlan',
+    picture: '/volunteers/ylderlan_avatar.png',
+    qualification: 'Fortíssimos hard skills e organização de tarefas.',
+    participation: 'Squad Lead e Dev Front End',
+    github: 'https://github.com/FranciscoYlderlan',
+    linkedin: 'https://www.linkedin.com/in/franciscoylderlanoliveira/',
+  },
+  {
+    id: crypto.randomUUID(),
     name: 'Grace Kelly',
     picture: '/volunteers/avatar_GK.jpg',
     qualification:
@@ -59,15 +68,6 @@ const volunteers = [
     participation: 'PM | PO | QA Manager | QA Tester',
     github: 'https://github.com/gksouza',
     linkedin: 'https://www.linkedin.com/in/gkos22/',
-  },
-  {
-    id: crypto.randomUUID(),
-    name: 'Francisco Ylderlan',
-    picture: '/volunteers/ylderlan_avatar.png',
-    qualification: 'Fortíssimos hard skills e organização de tarefas.',
-    participation: 'Squad Lead e Dev Front End',
-    github: 'https://github.com/FranciscoYlderlan',
-    linkedin: 'https://www.linkedin.com/in/franciscoylderlanoliveira/',
   },
   {
     id: crypto.randomUUID(),
