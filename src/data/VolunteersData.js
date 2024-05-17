@@ -91,6 +91,16 @@ const volunteers = [
   },
   {
     id: crypto.randomUUID(),
+    name: 'Matheus Hofstede',
+    picture: '/volunteers/hofs-avatar.png',
+    qualification:
+      'Pontualidade é uma entre tantas características fortes da sua persona tech. Seu conhecimento técnico é exponencial e ímpar, com altíssimo nível de liderança e motivador nato. Mentor em AWS, resoluções e sugestões em refatoração de componentes e repositórios.',
+    participation: 'Dev Back End',
+    github: 'https://github.com/hofstede-matheus/',
+    linkedin: 'https://www.linkedin.com/in/hofstede-matheus/',
+  },
+  {
+    id: crypto.randomUUID(),
     name: 'Mateus Villa Nova',
     picture: '/volunteers/villa-avatar.jpg',
     qualification:
@@ -108,16 +118,6 @@ const volunteers = [
     participation: 'Dev Front End',
     github: 'https://github.com/ThalytaRangel',
     linkedin: 'https://www.linkedin.com/in/thalyta-rangel-341b44161/',
-  },
-  {
-    id: crypto.randomUUID(),
-    name: 'Matheus Hofstede',
-    picture: '/volunteers/hofs-avatar.png',
-    qualification:
-      'Pontualidade é uma entre tantas características fortes da sua persona tech. Seu conhecimento técnico é exponencial e ímpar, com altíssimo nível de liderança e motivador nato. Mentor em AWS, resoluções e sugestões em refatoração de componentes e repositórios.',
-    participation: 'Dev Back End',
-    github: 'https://github.com/hofstede-matheus/',
-    linkedin: 'https://www.linkedin.com/in/hofstede-matheus/',
   },
 ]
 
