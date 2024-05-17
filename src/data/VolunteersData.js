@@ -42,6 +42,16 @@ const volunteers = [
   },
   {
     id: crypto.randomUUID(),
+    name: 'Daiane Farias',
+    picture: '/volunteers/daiane_avatar.png',
+    qualification:
+      'Demandas entregues com excelência e algumas de suas características inatas são: responsabilidade, comprometimento, Lifelong Learning e companheirismo no trabalho em equipe.',
+    participation: 'Dev Front End',
+    github: 'https://github.com/daiaanebarbosaf',
+    linkedin: 'www.linkedin.com/in/daiaanebarbosaf',
+  },
+  {
+    id: crypto.randomUUID(),
     name: 'Evandro Damaso',
     picture: '/volunteers/evandro-avatar-3.jpg',
     qualification:
