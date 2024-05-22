@@ -62,6 +62,15 @@ const volunteers = [
   },
   {
     id: crypto.randomUUID(),
+    name: 'Flávia Freitas',
+    picture: '/volunteers/flavia-avatar.png',
+    qualification:
+      'Habilidade em encontrar soluções criativas, práticas e produtivas, gerando resultados positivos.',
+    participation: 'Design UI/UX',
+    linkedin: 'https://www.linkedin.com/in/flaviaflfreitas/',
+  },
+  {
+    id: crypto.randomUUID(),
     name: 'Francisco Ylderlan',
     picture: '/volunteers/ylderlan_avatar.png',
     qualification: 'Fortíssimos hard skills e organização de tarefas.',
