@@ -39,8 +39,9 @@ export const ProfileHeader = styled.div`
     width: 100%;
 
     > img {
-      height: 6rem;
       width: 6rem;
+      aspect-ratio: 1/1;
+      object-fit: cover;
 
       border-radius: 999px;
     }
