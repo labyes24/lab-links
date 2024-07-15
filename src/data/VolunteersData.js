@@ -56,7 +56,7 @@ const volunteers = [
     picture: '/volunteers/evandro-avatar-3.jpg',
     qualification:
       'Econômico nas palavras, abundante em eficiência tech e pessoal.',
-    participation: 'Squad Lead e Dev Front End',
+    participation: 'Squad Lead, Dev Front End e Gestor de Projetos',
     github: 'https://github.com/dam450',
     linkedin: 'https://www.linkedin.com/in/evandro-damaso/',
   },
@@ -124,7 +124,7 @@ const volunteers = [
     picture: '/volunteers/thalyta-avatar.png',
     qualification:
       'Assertiva e observadora. Os bugs tremem diante de sua competência técnica.',
-    participation: 'Dev Front End',
+    participation: 'Dev Front End e Gestora de Projetos',
     github: 'https://github.com/ThalytaRangel',
     linkedin: 'https://www.linkedin.com/in/thalyta-rangel-341b44161/',
   },
