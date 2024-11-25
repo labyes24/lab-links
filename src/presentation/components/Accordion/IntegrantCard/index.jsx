@@ -10,10 +10,15 @@ export function IntegrantCard({
   github,
   onClickItem,
   isActiveSection,
+  cardBlured,
   ...rest
 }) {
   return (
-    <Container {...rest} $isActiveSection={isActiveSection}>
+    <Container
+      {...rest}
+      $isActiveSection={isActiveSection}
+      $cardBlured={cardBlured}
+    >
       <ProfileHeader onClick={onClickItem}>
         <div className="member">
           <img src={picture} alt={`Foto do integrante ${name}`} />
@@ -24,12 +29,16 @@ export function IntegrantCard({
       {isActiveSection && (
         <Description className={isActiveSection ? 'active' : ''}>
           <div className="social">
-            <a href={linkedin} target="_blank" rel="noreferrer">
-              <AiFillLinkedin />
-            </a>
-            <a href={github} target="_blank" rel="noreferrer">
-              <AiFillGithub />
-            </a>
+            {linkedin && (
+              <a href={linkedin} target="_blank" rel="noreferrer">
+                <AiFillLinkedin />
+              </a>
+            )}
+            {github && (
+              <a href={github} target="_blank" rel="noreferrer">
+                <AiFillGithub />
+              </a>
+            )}
           </div>
           <p>
             <b>Qualificações: </b>

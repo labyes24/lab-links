@@ -19,6 +19,7 @@ const volunteers = [
     participation: 'Tech Lead',
     github: 'https://github.com/silvasouzaadriano',
     linkedin: 'https://www.linkedin.com/in/adriano-souza-9b1a1b11/',
+    cardBlured: false,
   },
   {
     id: crypto.randomUUID(),
@@ -29,6 +30,7 @@ const volunteers = [
     participation: 'Web Designer e Dev Front End',
     github: 'https://github.com/Caiobaldur',
     linkedin: 'https://www.linkedin.com/in/caio-balduino/',
+    cardBlured: false,
   },
   {
     id: crypto.randomUUID(),
@@ -39,6 +41,7 @@ const volunteers = [
     participation: 'Dev Front End',
     github: 'https://github.com/cristian-sbardelotto',
     linkedin: 'https://www.linkedin.com/in/cristian-k-sbardelotto/',
+    cardBlured: false,
   },
   {
     id: crypto.randomUUID(),
@@ -49,6 +52,7 @@ const volunteers = [
     participation: 'Dev Front End',
     github: 'https://github.com/daiaanebarbosaf',
     linkedin: 'www.linkedin.com/in/daiaanebarbosaf',
+    cardBlured: false,
   },
   {
     id: crypto.randomUUID(),
@@ -59,6 +63,7 @@ const volunteers = [
     participation: 'Squad Lead, Dev Front End e Gestor de Projetos',
     github: 'https://github.com/dam450',
     linkedin: 'https://www.linkedin.com/in/evandro-damaso/',
+    cardBlured: false,
   },
   {
     id: crypto.randomUUID(),
@@ -68,6 +73,7 @@ const volunteers = [
       'Habilidade em encontrar soluções criativas, práticas e produtivas, gerando resultados positivos.',
     participation: 'Design UI/UX',
     linkedin: 'https://www.linkedin.com/in/flaviaflfreitas/',
+    cardBlured: false,
   },
   {
     id: crypto.randomUUID(),
@@ -77,6 +83,7 @@ const volunteers = [
     participation: 'Squad Lead e Dev Front End',
     github: 'https://github.com/FranciscoYlderlan',
     linkedin: 'https://www.linkedin.com/in/franciscoylderlanoliveira/',
+    cardBlured: false,
   },
   {
     id: crypto.randomUUID(),
@@ -87,6 +94,7 @@ const volunteers = [
     participation: 'PM | PO | QA Manager | QA Tester',
     github: 'https://github.com/gksouza',
     linkedin: 'https://www.linkedin.com/in/gkos22/',
+    cardBlured: false,
   },
   {
     id: crypto.randomUUID(),
@@ -97,6 +105,7 @@ const volunteers = [
     participation: 'QA Tester e Dev Front End',
     github: 'https://github.com/HenricoAngolera',
     linkedin: 'https://www.linkedin.com/in/henrico-angolera/',
+    cardBlured: false,
   },
   {
     id: crypto.randomUUID(),
@@ -107,6 +116,7 @@ const volunteers = [
     participation: 'QA Tester e Dev Front End',
     github: 'https://github.com/Villa-Nova',
     linkedin: 'https://www.linkedin.com/in/mateusvillanova/',
+    cardBlured: false,
   },
   {
     id: crypto.randomUUID(),
@@ -117,6 +127,7 @@ const volunteers = [
     participation: 'Dev Back End',
     github: 'https://github.com/hofstede-matheus/',
     linkedin: 'https://www.linkedin.com/in/hofstede-matheus/',
+    cardBlured: false,
   },
   {
     id: crypto.randomUUID(),
@@ -127,6 +138,7 @@ const volunteers = [
     participation: 'Dev Front End e Gestora de Projetos',
     github: 'https://github.com/ThalytaRangel',
     linkedin: 'https://www.linkedin.com/in/thalyta-rangel-341b44161/',
+    cardBlured: false,
   },
 ]
 

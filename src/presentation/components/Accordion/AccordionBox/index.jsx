@@ -39,6 +39,7 @@ export function AccordionBox() {
               github={integrant.github}
               onClickItem={() => handleClick(index)}
               isActiveSection={index === activeIndex}
+              cardBlured={integrant.cardBlured}
             />
           ))}
       </Members>
