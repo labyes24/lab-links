@@ -23,14 +23,14 @@ const volunteers = [
   },
   {
     id: crypto.randomUUID(),
-    name: 'Caio Balduino',
-    picture: '/volunteers/caio-avatar2.jpg',
+    name: 'CB',
+    picture: '/volunteers/caio-avatar-blured.jpeg',
     qualification:
       'Excelente comunicação, é pontual e trabalha muito bem em equipe.',
     participation: 'Web Designer e Dev Front End',
-    github: 'https://github.com/Caiobaldur',
-    linkedin: 'https://www.linkedin.com/in/caio-balduino/',
-    cardBlured: false,
+    github: '',
+    linkedin: '',
+    cardBlured: true,
   },
   {
     id: crypto.randomUUID(),
