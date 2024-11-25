@@ -12,6 +12,8 @@ export default {
     SCROLLBAR_BACKGROUND: 'rgba(217, 217, 217, 0.5)',
 
     BACKGROUND_DESCRIPTION: 'rgba(151, 164, 153, 0.5)',
+
+    BACKGROUND_BLURED: 'rgba(225, 217, 219, 1)',
   },
   FONTS: {
     INTER: "'Inter', sans-serif",

@@ -1,7 +1,10 @@
 import styled from 'styled-components'
 
 export const Container = styled.button`
-  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_BUTTON};
+  background-color: ${({ theme, $cardBlured }) =>
+    $cardBlured
+      ? theme.COLORS.BACKGROUND_BLURED
+      : theme.COLORS.BACKGROUND_BUTTON};
   border-radius: 1rem;
   border: 1px solid ${({ theme }) => theme.COLORS.BORDER_BUTTON};
 
