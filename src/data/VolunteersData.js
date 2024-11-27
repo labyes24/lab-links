@@ -35,7 +35,7 @@ const volunteers = [
   {
     id: crypto.randomUUID(),
     name: 'Cristian Sbardelotto',
-    picture: '/volunteers/cristian_avatar.png',
+    picture: '/volunteers/cristian_avatar2.png',
     qualification:
       'Disciplinado como um ninja, com altas dosagens de Hard e Soft Skills.',
     participation: 'Dev Front End',
@@ -46,7 +46,7 @@ const volunteers = [
   {
     id: crypto.randomUUID(),
     name: 'Daiane Farias',
-    picture: '/volunteers/daiane_avatar.png',
+    picture: '/volunteers/daiane_avatar2.png',
     qualification:
       'Demandas entregues com excelência e algumas de suas características inatas são: responsabilidade, comprometimento, Lifelong Learning e companheirismo no trabalho em equipe.',
     participation: 'Dev Front End',
