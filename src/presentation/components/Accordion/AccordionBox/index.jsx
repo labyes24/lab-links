@@ -44,13 +44,17 @@ export function AccordionBox() {
           ))}
       </Members>
       <Social>
-        <a href="https://github.com/lab-yes" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/lab-yes"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <AiFillGithub />
         </a>
         <a
-          href="https://www.linkedin.com/company/lab-yes/"
+          href="https://www.linkedin.com/company/lbys/"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <AiFillLinkedin />
         </a>
