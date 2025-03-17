@@ -23,17 +23,6 @@ const volunteers = [
   },
   {
     id: crypto.randomUUID(),
-    name: 'CB',
-    picture: '/volunteers/caio-avatar-blured.jpeg',
-    qualification:
-      'Excelente comunicação, é pontual e trabalha muito bem em equipe.',
-    participation: 'Web Designer e Dev Front End',
-    github: '',
-    linkedin: '',
-    cardBlured: true,
-  },
-  {
-    id: crypto.randomUUID(),
     name: 'Cristian Sbardelotto',
     picture: '/volunteers/cristian_avatar2.png',
     qualification:
@@ -41,17 +30,6 @@ const volunteers = [
     participation: 'Dev Front End',
     github: 'https://github.com/cristian-sbardelotto',
     linkedin: 'https://www.linkedin.com/in/cristian-k-sbardelotto/',
-    cardBlured: false,
-  },
-  {
-    id: crypto.randomUUID(),
-    name: 'Daiane Farias',
-    picture: '/volunteers/daiane_avatar2.png',
-    qualification:
-      'Demandas entregues com excelência e algumas de suas características inatas são: responsabilidade, comprometimento, Lifelong Learning e companheirismo no trabalho em equipe.',
-    participation: 'Dev Front End',
-    github: 'https://github.com/daiaanebarbosaf',
-    linkedin: 'www.linkedin.com/in/daiaanebarbosaf',
     cardBlured: false,
   },
   {
