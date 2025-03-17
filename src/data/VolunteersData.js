@@ -78,7 +78,7 @@ const volunteers = [
   {
     id: crypto.randomUUID(),
     name: 'Francisco Ylderlan',
-    picture: '/volunteers/ylderlan_avatar.png',
+    picture: '/volunteers/ylderlan_avatar-2.png',
     qualification: 'Fortíssimos hard skills e organização de tarefas.',
     participation: 'Squad Lead e Dev Front End',
     github: 'https://github.com/FranciscoYlderlan',
